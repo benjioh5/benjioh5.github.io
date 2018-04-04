@@ -1,0 +1,318 @@
+{
+    "basics": {
+        "name": "Benjamin Hyokeun Oh",
+        "label": "Programmer",
+        "picture": "",
+        "email": "benjioh5@gmail.com",
+        "phone": "(82) 10-9980-9597",
+        "website": "http://www.benjioh5.com",
+        "summary": "함수형 언어, 언어철학, 형식(수리)논리학에 관심이 많은 학생입니다. 현재 경영학과를 부전공하고 있으며, 이런저런 통계기법이나 데이터 마이닝 기법들, 금융공학에 대해 공부하고 있습니다. 어렸을 적부터 정보보안이나 해킹 쪽을 취미로 해왔으며, 이런 습관 덕분에 정말 다이나믹한 인생을 살아오고 있는게 아닌가 싶습니다. 이것저것 관심은 많은데 시간이 부족하여 이런저런 것들을 판을 벌려놓고 수습을 잘 못하는 경향이 있는데, 현재 하나씩 해결해나가는 중입니다. :P",
+        "location": {
+            "address": "",
+            "postalCode": "",
+            "city": "Seoul",
+            "countryCode": "",
+            "region": "South Korea"
+        },
+        "profiles": [{
+                "network": "Twitter",
+                "username": "benjioh5",
+                "url": "https://www.twitter.com/benjioh5"
+            },
+            {
+                "network": "Github",
+                "username": "benjioh5",
+                "url": "https://www.github.com/benjioh5"
+            },
+            {
+                "network": "Linkedin",
+                "username": "benjioh5",
+                "url": "https://www.linkedin.com/in/benjioh5"
+            }
+        ]
+    },
+    "work": [{
+            "company": "SCVSoft",
+            "position": "CEO",
+            "website": "https://www.scvsoft.net/",
+            "startDate": "2018-02",
+            "endDate": "",
+            "summary": "개발 및 일정 관리를 모두 하고 있습니다.",
+            "highlights": []
+        },
+        {
+            "company": "Emohtrams, Best of the Best 6th, KISA",
+            "position": "Project Leader",
+            "website": "https://www.kitribob.kr/",
+            "startDate": "2017-09",
+            "endDate": "2017-12",
+            "summary": "KISA의 Best of the Best 6기 프로젝트인 Emohtrams는 스마트 홈 네트워크 IoT 장비들의 취약점 발견 및 다면지단 프로그램을 만드는 것을 목표로 하였습니다. 저는 팀 내에서 Project Leader라는 직함으로 멘토링을 진행하였습니다. 결과적으로, Emothrams팀은 타겟의 권한 탈취 후 연결되어 있는 IoT 장비들의 접근 제어가 가능한 취약점 등을 발견하였습니다. 이를 다수의 언론사에 제보를 하였습니다.",
+            "highlights": [
+                "[긴급] 아파트 스마트홈에 심각한 취약점 발견…수십만 입주민 위험에 노출 원격에서 차량개폐기, 로비도어, 현관 도어락 스마트홈 모든 기능 제어 가능해 http://www.dailysecu.com/?mod=news&act=articleView&idxno=26932",
+                "똑똑한 줄 알았는데…맥없이 뚫린 '스마트 홈' 보안 http://news.jtbc.joins.com/article/article.aspx?news_id=NB11562517"
+            ]
+        },
+        {
+            "company": "doobit",
+            "position": "CDO",
+            "website": "http://www.doobit.net/",
+            "startDate": "2016-12",
+            "endDate": "",
+            "summary": "풀스택 개발자로 일하고 있습니다. 손 세정 웨어러블 디바이스를 컨트롤 하기 위한 iOS/Android 어플리케이션, 병원 등에 사용될 종합관리 시스템용 CMS, 비콘 및 블루투스 통신에 대한 전반적인 부분을 맡고 있으며, 그 외 잡다한 프론트 앤드 개발 등 여러 상황에서 발생하는 일들을 대쳐해나가고 있는 중입니다.",
+            "highlights": []
+        },
+        {
+            "company": "Guardians of IoT@Home, Best of the Best 6th, KISA",
+            "position": "취약점분석 트랙",
+            "website": "https://www.kitribob.kr/",
+            "startDate": "2015-06",
+            "endDate": "2016-02",
+            "summary": "KISA의 Best of the Best 4기 프로젝트였던 Guardians of IoT@Home은 집안에서 사용하는 IoT 장비들의 취약점 발견 및 대응 가이드라인을 제작하는 것을 목표로 삼았습니다. 저는 팀 내에서 다수의 IoT 장비들의 펌웨어 덤프 및 디컴파일 후 소스 코드 레벨의 정적 분석과 다양한 툴을 이용한 동적 분석을 시행하였습니다. Z-Wave, Zigbee 기반의 홈 허브 및 홈 오토메이션용 스마트 월패드에 대한 조사 및 분석을 하였으며, 타겟의 공유기 권한 탈취 후 연결되어 있는 IoT 장비들의 접근 제어가 가능한 취약점 등을 발견하였습니다. 이를 2015 CodeEngn Conference 12, 제 4회 레몬 정보보호 세미나, Inc0gnito 2016, 한국통신학회 추계종합학술발표회 등에서 발표하였습니다.",
+            "highlights": []
+        }
+    ],
+    "volunteer": [{
+        "organization": "ICEWALL",
+        "position": "Pen tester",
+        "website": "http://icewall.hanyang.ac.kr",
+        "startDate": "2014",
+        "endDate": "2018",
+        "summary": "정기적으로 시행되는 학교 내 서버 보안 점검 및 모의 침투 테스팅을 시행해왔습니다. 기본적인 웹 해킹 기법 및 네트워크 공격기법을 통해 찾아낸 개인정보 유출 등에 대한 지속적인 검사 및 보고서 작성을 하였습니다.",
+        "highlights": []
+    }],
+    "education": [{
+            "institution": "Best of the Best 4th",
+            "area": "취약점 분석 트랙",
+            "studyType": "Mentee",
+            "startDate": "2015-06-01",
+            "endDate": "2016-03-01",
+            "gpa": "",
+            "courses": ["리버스 엔지니어링", "포너블", "네트워크 침투 기법", "웹 해킹", "임베디드 장비 분석", "포렌식"]
+        },
+        {
+            "institution": "Hanyang University",
+            "area": "Computer Science and Engineering",
+            "studyType": "Bachelor",
+            "startDate": "2014-03-01",
+            "endDate": "",
+            "gpa": "",
+            "courses": []
+        },
+        {
+            "institution": "KAIST IT영재원 (봄학기)",
+            "area": "Computer Science",
+            "studyType": "Student",
+            "startDate": "2010",
+            "endDate": "",
+            "gpa": "",
+            "courses": ["알고리즘"]
+        }
+    ],
+    "awards": [{
+            "title": "MEDICOLOR HACKATHON 2017 - 특별상",
+            "date": "2017-09-23",
+            "awarder": "삼성의료원",
+            "summary": "CMYK 팀, 의료앱 제작"
+        },
+        {
+            "title": "한양대학교 특허 해커톤 - 최우수상 (2등)",
+            "date": "2017",
+            "awarder": "한양대학교",
+            "summary": "VR 기반 가구 배치 시스템 피칭"
+        },
+        {
+            "title": "강원대학교 메이커톤 - 3등",
+            "date": "2016",
+            "awarder": "강원대학교",
+            "summary": "도어 센서 개발"
+        },
+        {
+            "title": "슈퍼 챌린지 해커톤 1회 - UTC 기술혁신상",
+            "date": "2015",
+            "awarder": "UTC",
+            "summary": "소변의 pH 값과 색상을 이용하여 사용자의 건강을 체크하고 스마트폰에서 결과를 확인할 수 있는 스마트 헬스케어 제품 Helpee(Help + pee)를 제작"
+        },
+        {
+            "title": "슈퍼 챌린지 해커톤 1회 - 중소기업청장상",
+            "date": "2015",
+            "awarder": "중소기업청",
+            "summary": "소변의 pH 값과 색상을 이용하여 사용자의 건강을 체크하고 스마트폰에서 결과를 확인할 수 있는 스마트 헬스케어 제품 Helpee(Help + pee)를 제작"
+        }
+    ],
+    "publications": [{
+            "name": "CS Univ Wiki",
+            "publisher": "benjioh5",
+            "releaseDate": "2016",
+            "website": "https://cs.univ.wiki",
+            "summary": "컴퓨터 공학의 전반적인 부분을 적어보자라는 생각으로 만든 위키"
+        },
+        {
+            "name": "All your base is belong to us - IoT 펌웨어 추출과 변조",
+            "publisher": "Inc0gnito 2016",
+            "releaseDate": "2016",
+            "website": "https://inc0gnito.com/",
+            "summary": "https://www.slideshare.net/benjaminhkoh/incognito-2016-iot"
+        },
+        {
+            "name": "게임 리소스 추출과 변조",
+            "publisher": "Inc0gnito 2015",
+            "releaseDate": "2015",
+            "website": "https://inc0gnito.com/",
+            "summary": "https://www.slideshare.net/benjaminhkoh/incognito-2015"
+        },
+        {
+            "name": "Threat modeling을 이용한 스마트홈 위험분석",
+            "publisher": "한국통신학회",
+            "releaseDate": "2015",
+            "website": "http://www.eiric.or.kr/community/post2.php?m=view&gubun=201501&num=455&pg=17&seGubun=&seGubun1=&SnxGubun=%C6%F7%BD%BA%C5%CD&searchBy=&searchWord=",
+            "summary": ""
+        }
+    ],
+    "skills": [{
+            "name": "Frontend Dev",
+            "level": "soso",
+            "keywords": [
+                "HTML5",
+                "CSS3",
+                "javascript"
+            ]
+        },
+        {
+            "name": "Backend Dev",
+            "level": "soso",
+            "keywords": [
+                "Flask",
+                "Django",
+                "node.js",
+                "PHP",
+                "ASP.NET",
+                "MongoDB",
+                "MYSQL"
+            ]
+        },
+        {
+            "name": "Devops",
+            "level": "soso",
+            "keywords": [
+                "nginx",
+                "bash script",
+                "Perl"
+            ]
+        },
+        {
+            "name": "Programming languages",
+            "level": "soso",
+            "keywords": [
+                "Erlang",
+                "Haskell",
+                "Elixir",
+                "C++",
+                "C#",
+                "Python",
+                "R",
+                "..."
+            ]
+        },
+        {
+            "name": "iOS Dev",
+            "level": "soso",
+            "keywords": [
+                "Swift",
+                "cocoapod",
+                "Xcode"
+            ]
+        },
+        {
+            "name": "Android Dev",
+            "level": "soso",
+            "keywords": [
+                "Java",
+                "Kotlin",
+                "Maven"
+            ]
+        },
+        {
+            "name": "Prototyping",
+            "level": "not bad",
+            "keywords": [
+                "Sketch",
+                "XD",
+                "Photoshop",
+                "Zeplin"
+            ]
+        },
+        {
+            "name": "Reverse Engineering",
+            "level": "not bad",
+            "keywords": [
+                "IDA",
+                "x86ASM",
+                "armASM",
+                "lldb/gdb",
+                "Pin Tool",
+                "decompression"
+            ]
+        },
+        {
+            "name": "Web Hacking",
+            "level": "not bad",
+            "keywords": [
+                "OWASP ZAP",
+                "SQLi",
+                "Fuzzing",
+                "Cookie jack",
+                "XSS",
+                "..."
+            ]
+        },
+        {
+            "name": "Embedded",
+            "level": "not bad",
+            "keywords": [
+                "HDL",
+                "Electronics",
+                "Firmware dump",
+                "CAD",
+                "Prototyping",
+                "RF Sniffing"
+            ]
+        },
+        {
+            "name": "Forensic",
+            "level": "not bad",
+            "keywords": [
+                "EnCase",
+                "FTK Imager",
+                "HxD",
+                "Registry Forensic",
+                "Artifect"
+            ]
+        }
+    ],
+    "languages": [{
+            "language": "Korean",
+            "fluency": "Native speaker"
+        },
+        {
+            "language": "English",
+            "fluency": "Soso..?"
+        },
+        {
+            "language": "Japanese",
+            "fluency": "SoSo"
+        }
+    ],
+    "interests": [{
+            "name": "Lego",
+            "keywords": []
+        },
+        {
+            "name": "Game",
+            "keywords": [
+                "Steam",
+                "Old school"
+            ]
+        }
+    ],
+    "references": []
+}
