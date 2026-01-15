@@ -126,6 +126,24 @@ h4 span:first-child {
 	color: #95a5a6;
 	font-size: 24px;
 }
+.language-switcher {
+	text-align: right;
+	margin-top: 10px;
+}
+.language-switcher label {
+	color: #95a5a6;
+	font-size: 12px;
+	font-weight: 700;
+	letter-spacing: 0.04em;
+	margin-bottom: 4px;
+}
+.language-switcher select {
+	border: 1px solid #e7e9ec;
+	border-radius: 4px;
+	padding: 6px 10px;
+	font-size: 14px;
+	background: #fff;
+}
 #content h3 {
 	color: #f1c40f;
 	font-size: 26px;
@@ -195,6 +213,10 @@ h4 span:first-child {
 		padding-right: 0;
 		text-align: left;
 	}
+	.language-switcher {
+		text-align: left;
+		margin-top: 12px;
+	}
 	#publications .website a:before {
 		content: "View publication";
 	}
@@ -238,6 +260,13 @@ h4 span:first-child {
 						<h2>
 							{{ resume.basics.label }}
 						</h2>
+						<div class="language-switcher">
+							<label for="language-select">Language</label>
+							<select id="language-select" v-model="language" @change="onLanguageChange">
+								<option value="ko">한국어</option>
+								<option value="en">English</option>
+							</select>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -504,20 +533,36 @@ h4 span:first-child {
 		createApp({
 			data() {
 				return {
-					resume: null
+					resume: null,
+					language: "ko"
 				};
 			},
 			mounted() {
-				fetch("resume.json")
-					.then((response) => response.json())
-					.then((data) => {
-						this.resume = data;
-					})
-					.catch((error) => {
-						console.error("Failed to load resume.json", error);
-					});
+				const savedLanguage = localStorage.getItem("resumeLanguage");
+				if (savedLanguage === "ko" || savedLanguage === "en") {
+					this.language = savedLanguage;
+				}
+				this.loadResume(this.language);
 			},
 			methods: {
+				getResumePath(lang) {
+					return lang === "en" ? "resume.en.json" : "resume.json";
+				},
+				loadResume(lang) {
+					const path = this.getResumePath(lang);
+					fetch(path)
+						.then((response) => response.json())
+						.then((data) => {
+							this.resume = data;
+						})
+						.catch((error) => {
+							console.error(`Failed to load ${path}`, error);
+						});
+				},
+				onLanguageChange() {
+					localStorage.setItem("resumeLanguage", this.language);
+					this.loadResume(this.language);
+				},
 				formatText(text) {
 					if (!text) {
 						return "";
