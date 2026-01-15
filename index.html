@@ -44,6 +44,8 @@ body {
 }
 a {
 	color: #2ecc71;
+	overflow-wrap: anywhere;
+	word-break: break-word;
 }
 a:focus,
 a:hover {
@@ -53,6 +55,8 @@ a:hover {
 p {
 	line-height: 1.5;
 	margin: 0;
+	overflow-wrap: anywhere;
+	word-break: break-word;
 }
 p + p {
 	margin-top: 10px;
@@ -95,6 +99,14 @@ h4 span:first-child {
 .container {
 	max-width: 750px;
 	padding: 0 30px;
+}
+.summary,
+.highlights,
+.website,
+.url,
+.username {
+	overflow-wrap: anywhere;
+	word-break: break-word;
 }
 .col-sm-6 {
 	margin-bottom: 10px;
@@ -253,7 +265,7 @@ h4 span:first-child {
 				<h3>About</h3>
 			</aside>
 			<div class="col-sm-9">
-				<p>{{ resume.basics.summary }}</p>
+				<p v-html="formatText(resume.basics.summary)"></p>
 			</div>
 		</section>
 		<section id="profiles" class="row">
@@ -296,14 +308,12 @@ h4 span:first-child {
 						{{ work.position }}
 					</div>
 					<div class="summary">
-						<p>{{ work.summary }}</p>
+						<p v-html="formatText(work.summary)"></p>
 					</div>
 					<div v-if="work.highlights && work.highlights.length">
 						<h4>Highlights</h4>
 						<ul class="highlights">
-							<li class="bullet" v-for="(highlight, index) in work.highlights" :key="index">
-								{{ highlight }}
-							</li>
+							<li class="bullet" v-for="(highlight, index) in work.highlights" :key="index" v-html="formatText(highlight)"></li>
 						</ul>
 					</div>
 				</div>
@@ -331,7 +341,7 @@ h4 span:first-child {
 						{{ volunteer.position }}
 					</div>
 					<div class="summary">
-						<p>{{ volunteer.summary }}</p>
+						<p v-html="formatText(volunteer.summary)"></p>
 					</div>
 				</div>
 				</div>
@@ -387,12 +397,10 @@ h4 span:first-child {
 							<strong>{{ award.awarder }}</strong>
 						</div>
 						<div class="summary" v-if="award.summary">
-							{{ award.summary }}
+							<span v-html="formatText(award.summary)"></span>
 						</div>
 						<ul class="highlights" v-if="award.highlights && award.highlights.length">
-							<li class="bullet" v-for="(highlight, index) in award.highlights" :key="index">
-								{{ highlight }}
-							</li>
+							<li class="bullet" v-for="(highlight, index) in award.highlights" :key="index" v-html="formatText(highlight)"></li>
 						</ul>
 					</div>
 				</div>
@@ -413,14 +421,14 @@ h4 span:first-child {
 							</span>
 						</h4>
 						<div class="website pull-right" v-if="publication.url">
-							<a :href="publication.url" target="_blank"></a>
+							<a :href="publication.url" target="_blank" rel="noopener">{{ publication.url }}</a>
 						</div>
 						<div class="publisher">
 							<em>Published at</em>
 							<strong>{{ publication.publisher }}</strong>
 						</div>
 						<div class="summary" v-if="publication.summary">
-							<p>{{ publication.summary }}</p>
+							<p v-html="formatText(publication.summary)"></p>
 						</div>
 					</div>
 				</div>
@@ -441,10 +449,10 @@ h4 span:first-child {
 							</span>
 						</h4>
 						<div class="website pull-right" v-if="project.url">
-							<a :href="project.url" target="_blank"></a>
+							<a :href="project.url" target="_blank" rel="noopener">{{ project.url }}</a>
 						</div>
 						<ul class="highlights" v-if="project.highlights && project.highlights.length">
-							<li class="bullet" v-for="(highlight, index) in project.highlights" :key="index">{{ highlight }}</li>
+							<li class="bullet" v-for="(highlight, index) in project.highlights" :key="index" v-html="formatText(highlight)"></li>
 						</ul>
 					</div>
 				</div>
@@ -508,6 +516,24 @@ h4 span:first-child {
 					.catch((error) => {
 						console.error("Failed to load resume.json", error);
 					});
+			},
+			methods: {
+				formatText(text) {
+					if (!text) {
+						return "";
+					}
+					const escaped = String(text)
+						.replace(/&/g, "&amp;")
+						.replace(/</g, "&lt;")
+						.replace(/>/g, "&gt;")
+						.replace(/"/g, "&quot;")
+						.replace(/'/g, "&#39;");
+					const linked = escaped.replace(
+						/https?:\/\/[^\s<]+/g,
+						(url) => `<a href="${url}" target="_blank" rel="noopener">${url}</a>`
+					);
+					return linked.replace(/\n/g, "<br>");
+				}
 			},
 			computed: {
 				contactItems() {
