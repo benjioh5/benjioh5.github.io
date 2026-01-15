@@ -10,9 +10,9 @@
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "",
-      "countryCode": "",
-      "region": ""
+      "city": "Seoul",
+      "countryCode": "KR",
+      "region": "South Korea"
     },
     "profiles": [
       {
@@ -42,8 +42,8 @@
       },
       {
         "network": "Blog",
-        "username": "blog.benjioh5.com",
-        "url": "http://blog.benjioh5.com"
+        "username": "benjioh5.com/blog",
+        "url": "http://benjioh5.com/blog"
       }
     ]
   },
@@ -140,7 +140,7 @@
       "area": "Computer Science and Engineering",
       "studyType": "Bachelor",
       "startDate": "2014-03-01",
-      "endDate": "",
+      "endDate": "2025-08-01",
       "score": "",
       "courses": []
     },
@@ -283,6 +283,7 @@
         "Erlang",
         "Elixir",
         "Java",
+        "Typescript"
         "Python",
         "Rust",
         "Go",
@@ -293,30 +294,31 @@
       "name": "Frontend Dev",
       "level": "",
       "keywords": [
-        "Vuejs",
-        "jQuery"
+        "Nextjs",
+        "Vuejs"
       ]
     },
     {
       "name": "Backend Dev",
       "level": "",
       "keywords": [
-        "Flask",
         "node.js",
+        "Flask",
         "PHP",
-        "Spring",
+        "Spring Boot",
         "MongoDB",
-        "MYSQL & MariaDB"
+        "MYSQL",
+        "PostgreSQL"
       ]
     },
     {
       "name": "Devops",
       "level": "",
       "keywords": [
-        "nginx",
-        "bash script",
-        "Perl",
-        "Terraform"
+        "Shell script",
+        "Terraform",
+        "Ansible",
+        "k8s"
       ]
     },
     {
@@ -325,25 +327,17 @@
       "keywords": [
         "Swift",
         "Java",
-        "Flutter"
-      ]
-    },
-    {
-      "name": "Prototyping",
-      "level": "",
-      "keywords": [
-        "Sketch",
-        "XD",
-        "Photoshop",
-        "Zeplin",
-        "After Effect"
+        "Flutter",
+        "React Native"
       ]
     },
     {
       "name": "Embedded",
       "level": "",
       "keywords": [
+        "Verilog",
         "HDL",
+        "FPG with Xilinx",
         "Firmware Development via C/C++"
       ]
     },
