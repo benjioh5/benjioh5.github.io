@@ -1,0 +1,397 @@
+{
+  "basics": {
+    "name": "Benjamin Hyokeun Oh",
+    "label": "Programmer",
+    "image": "",
+    "email": "benjioh5 {at} gmail.com",
+    "phone": "",
+    "url": "http://www.benjioh5.com",
+    "summary": "I work in the blockchain space, mainly on Ethereum development, and I am building my career plan by leveraging my security background and development experience.",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Seoul",
+      "countryCode": "KR",
+      "region": "South Korea"
+    },
+    "profiles": [
+      {
+        "network": "Twitter",
+        "username": "benjioh5",
+        "url": "https://www.twitter.com/benjioh5"
+      },
+      {
+        "network": "Github",
+        "username": "benjioh5",
+        "url": "https://www.github.com/benjioh5"
+      },
+      {
+        "network": "Linkedin",
+        "username": "benjioh5",
+        "url": "https://www.linkedin.com/in/benjioh5"
+      },
+      {
+        "network": "RocketPunch",
+        "username": "benjioh5",
+        "url": "https://www.rocketpunch.com/@benjioh5"
+      },
+      {
+        "network": "Telegram",
+        "username": "@benjioh5",
+        "url": "https://t.me/benjioh5"
+      },
+      {
+        "network": "Blog",
+        "username": "benjioh5.com/blog",
+        "url": "http://benjioh5.com/blog"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "SCVSoft",
+      "position": "CEO",
+      "url": "https://www.scvsoft.net/",
+      "startDate": "2018-02",
+      "endDate": "",
+      "summary": "I handle both development and schedule management.",
+      "highlights": [
+        "Won an award at Undefined Hacker House with 'SCVSoft', 'Fillup', 'Fogning', 'Jisong' - https://www.digitalasset.works/news/articleView.html?idxno=2733",
+        "DVP blockchain hacking contest highlighted the appeal of the bug bounty platform - http://www.newsbrite.net/news/articleView.html?idxno=128705",
+        "Blockchain content distribution 'Popchain' partners with SCV SOFT - https://www.edaily.co.kr/news/read?newsId=02437046622616840&mediaCodeNo=257&OutLnkChk=Y",
+        "Held 'Blockcrafters Demo Day with LongHash' - http://www.dailysportshankook.co.kr/news/articleView.html?idxno=216644",
+        "Blockpatch successfully held 'Let's Meetup in Seoul' with a panel discussion on project investment analysis by an active crypto fund - http://www.fintechpost.co.kr/news/articleView.html?idxno=2174#0AXD"
+      ]
+    },
+    {
+      "name": "Emohtrams, Best of the Best 6th, KITRI",
+      "position": "Project Leader",
+      "url": "https://www.kitribob.kr/",
+      "startDate": "2017-09",
+      "endDate": "2017-12",
+      "summary": "Emohtrams, a Best of the Best 6th project at KITRI, aimed to discover vulnerabilities in smart home network IoT devices and build a multi-diagnosis program. I served as the Project Leader and mentored the team. The team found vulnerabilities that allowed control over connected IoT devices after gaining router privileges, and we disclosed the findings to multiple media outlets.",
+      "highlights": [
+        "Smart Home Hacking in Real World (Codegate 2017) - http://codegate.org/assets/kr/files/Smart%20Home%20Hacking%20in%20Real%20World.pdf",
+        "[Urgent] Critical vulnerabilities in apartment smart homes expose hundreds of thousands of residents; remote control of car gates, lobby doors, and front door locks - http://www.dailysecu.com/?mod=news&act=articleView&idxno=26932",
+        "Smart home security found to be full of holes - http://news.jtbc.joins.com/article/article.aspx?news_id=NB11562517"
+      ]
+    },
+    {
+      "name": "doobit",
+      "position": "CDO",
+      "url": "http://www.doobit.net/",
+      "startDate": "2016-12",
+      "endDate": "2018-01",
+      "summary": "Worked as a full-stack developer. Built iOS/Android apps to control a hand-sterilization wearable device, a CMS for hospital management systems, and handled beacons/Bluetooth communications. Also covered various frontend tasks as needed.",
+      "highlights": [
+        "Wearable Sterilizer - MWC Barcelona 4YFN Best5 2017 - https://bdci.co.kr/wearable-sterilizer",
+        "Startup doobit introduces a wearable device that shows hand hygiene status - https://news.joins.com/article/22225496",
+        "Five of the most curious gadgets at Mobile World Congress - https://www.levante-emv.com/vida-y-estilo/tecnologia/2017/03/03/5-gadgets-curiosos-mobile-world-12252715.html",
+        "Hands-on coverage of 4YFN featuring unique startup products like a card-type phone and smartphone-linked items - https://k-tai.watch.impress.co.jp/docs/event/mwc2017/1047428.html",
+        "[Tomorrow's Star! 2017] Prevent infectious diseases with a wearable device 'Gredo' - https://www.etnews.com/20170519000194",
+        "doobit, Insu Jang, interview at 4YFN 2017 (ENG & KOR) - https://www.youtube.com/watch?v=QZVcPlmrrvU"
+      ]
+    },
+    {
+      "name": "Guardians of IoT@Home, Best of the Best 4th, KITRI",
+      "position": "Vulnerability Analysis Track",
+      "url": "https://www.kitribob.kr/",
+      "startDate": "2015-06",
+      "endDate": "2016-02",
+      "summary": "Guardians of IoT@Home, a Best of the Best 4th project at KITRI, aimed to discover vulnerabilities in home IoT devices and create response guidelines. I dumped firmware and performed static analysis at the source-code level as well as dynamic analysis using various tools. I investigated Z-Wave and Zigbee-based home hubs and smart wallpads for home automation, found vulnerabilities that allowed control over connected IoT devices after gaining router privileges, and presented the findings at multiple conferences.",
+      "highlights": [
+        "4th Lemon Information Security Seminar announcement - http://blog.securityplus.or.kr/2015/10/4.html",
+        "2015 CodeEngn Conference 12, Guardians of IoT@Home [Jung Hyojeong] - https://github.com/codeengn/codeengn-conference/blob/master/12/2015%20CodeEngn%20Conference%2012%2C%20Guardians%20of%20IoT%40Home%20%5B%EC%A0%95%ED%9A%A8%EC%A0%95%5D.pdf"
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "ICEWALL",
+      "position": "Pen tester",
+      "url": "http://icewall.org/",
+      "startDate": "2014",
+      "endDate": "2018",
+      "summary": "Conducted regular on-campus server security audits and penetration testing. Wrote reports on data leaks discovered through basic web hacking and network attack techniques.",
+      "highlights": []
+    }
+  ],
+  "education": [
+    {
+      "institution": "Best of the Best 4th",
+      "url": "",
+      "area": "Vulnerability Analysis Track",
+      "studyType": "Mentee",
+      "startDate": "2015-06-01",
+      "endDate": "2016-03-01",
+      "score": "",
+      "courses": [
+        "Reverse engineering",
+        "Pwnable",
+        "Network penetration techniques",
+        "Web hacking",
+        "Embedded device analysis",
+        "Forensics"
+      ]
+    },
+    {
+      "institution": "Hanyang University",
+      "url": "",
+      "area": "Computer Science and Engineering",
+      "studyType": "Bachelor",
+      "startDate": "2014-03-01",
+      "endDate": "2025-08-01",
+      "score": "",
+      "courses": []
+    },
+    {
+      "institution": "KAIST IT Gifted Program (Spring term)",
+      "url": "",
+      "area": "Computer Science",
+      "studyType": "Student",
+      "startDate": "2010",
+      "endDate": "",
+      "score": "",
+      "courses": [
+        "Algorithms"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Undefined Hacker House",
+      "date": "2023-05-30",
+      "awarder": "Undefined Labs",
+      "summary": "Developed vETH for LSD extension",
+      "highlights": [
+        "Won an award at Undefined Hacker House with 'SCVSoft', 'Fillup', 'Fogning', 'Jisong' - https://www.digitalasset.works/news/articleView.html?idxno=2733"
+      ]
+    },
+    {
+      "title": "Hanwha Life DreamPlus Blockchain Hackathon - Hashed Award (Mentoring)",
+      "date": "2022-11-28",
+      "awarder": "Hanwha Life DreamPlus",
+      "summary": "Mentored the Ellixi team",
+      "highlights": [
+        "A 2-night, 3-day hackathon with blockchain mentors - https://platum.kr/archives/197722",
+        "DreamPlus hackathon 'Fireworks' showcases fresh ideas from games to wallets - http://www.coindeskkorea.com/news/articleView.html?idxno=82312"
+      ]
+    },
+    {
+      "title": "Hanwha Life DreamPlus Blockchain Hackathon - Grand Prize (Mentoring)",
+      "date": "2021-12-23",
+      "awarder": "Hanwha Life DreamPlus",
+      "summary": "Mentored the Play.Finance team",
+      "highlights": [
+        "Hanwha Life DreamPlus nurtures blockchain talent - hackathon winning team 'Play.Finance' - http://www.coindeskkorea.com/news/articleView.html?idxno=76712"
+      ]
+    },
+    {
+      "title": "MEDICOLOR HACKATHON 2017 - Special Award",
+      "date": "2017-09-23",
+      "awarder": "Samsung Medical Center",
+      "summary": "CMYK team, built a medical app"
+    },
+    {
+      "title": "Hanyang University Patent Hackathon - Best Award (2nd place)",
+      "date": "2017",
+      "awarder": "Hanyang University",
+      "summary": "Pitched a VR-based furniture placement system"
+    },
+    {
+      "title": "Kangwon National University Makerthon - 3rd place",
+      "date": "2016",
+      "awarder": "Kangwon National University",
+      "summary": "Built a door sensor"
+    },
+    {
+      "title": "Super Challenge Hackathon 1st - UTC Technology Innovation Award",
+      "date": "2015",
+      "awarder": "UTC",
+      "summary": ""
+    },
+    {
+      "title": "Super Challenge Hackathon 1st - Small and Medium Business Administration Minister Award",
+      "date": "2015",
+      "awarder": "Small and Medium Business Administration",
+      "summary": "Built Helpee (Help + pee), a smart healthcare product that checks user health using urine pH and color and shows results on a smartphone.",
+      "highlights": [
+        "University students' IoT idea war: a disease-detecting urinal and a crib that puts a baby back to sleep - https://www.hankyung.com/news/article/2015020480241",
+        "Super Challenge Hackathon closed successfully at the University Entrepreneur Center - http://news.heraldcorp.com/view.php?ud=20150209000278"
+      ]
+    }
+  ],
+  "certificates": [],
+  "publications": [
+    {
+      "name": "DeFi Smart Contract Vulnerability Analysis, Applications, and Improvements",
+      "publisher": "Ethcon 2020",
+      "releaseDate": "2020",
+      "url": "https://ethcon.kr/",
+      "summary": "(Talk video) https://youtu.be/vrtbEujjyQE?t=8570 | (Slides) https://www.slideshare.net/benjaminhkoh/ethcon-2020-defi-240330684"
+    },
+    {
+      "name": "Communicating with Blockchain Nodes and Identity Authentication (DID) in Web Environments",
+      "publisher": "W3C HTML5 Conference 2020",
+      "releaseDate": "2020",
+      "url": "https://www.openbooth.space/exhibition/html5",
+      "summary": "(Slides) https://www.slideshare.net/benjaminhkoh/w3c-html5-2020-did-240330755"
+    },
+    {
+      "name": "Ethereum 2.0 and Deposit Contract",
+      "publisher": "29th Ethereum Meetup",
+      "releaseDate": "2019",
+      "url": "https://www.meetup.com/ko-KR/Seoul-Ethereum-Meetup/",
+      "summary": "(Slides) https://www.slideshare.net/benjaminhkoh/29-ethereum-20-and-deposit-contract"
+    },
+    {
+      "name": "Translation of W3C DID Core v1.0",
+      "publisher": "W3C DID",
+      "releaseDate": "2019",
+      "url": "https://ssimeetupkorea.github.io/did-core/",
+      "summary": ""
+    },
+    {
+      "name": "All your base is belong to us - IoT firmware extraction and tampering",
+      "publisher": "Inc0gnito 2016",
+      "releaseDate": "2016",
+      "url": "https://inc0gnito.com/",
+      "summary": "(Slides) https://www.slideshare.net/benjaminhkoh/incognito-2016-iot"
+    },
+    {
+      "name": "Game resource extraction and modification",
+      "publisher": "Inc0gnito 2015",
+      "releaseDate": "2015",
+      "url": "https://inc0gnito.com/",
+      "summary": "(Slides) https://www.slideshare.net/benjaminhkoh/incognito-2015"
+    },
+    {
+      "name": "Smart Home Risk Analysis Using Threat Modeling",
+      "publisher": "Korean Institute of Communications and Information Sciences",
+      "releaseDate": "2015",
+      "url": "http://www.eiric.or.kr/",
+      "summary": "(Short paper) http://www.eiric.or.kr/community/post2.php?m=view&gubun=201501&num=455&pg=17&seGubun=&seGubun1=&SnxGubun=%C6%F7%BD%BA%C5%CD&searchBy=&searchWord="
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming languages",
+      "level": "",
+      "keywords": [
+        "C++",
+        "C#",
+        "Erlang",
+        "Elixir",
+        "Java",
+        "Typescript",
+        "Python",
+        "Rust",
+        "Go",
+        "..."
+      ]
+    },
+    {
+      "name": "Frontend Dev",
+      "level": "",
+      "keywords": [
+        "Nextjs",
+        "Vuejs"
+      ]
+    },
+    {
+      "name": "Backend Dev",
+      "level": "",
+      "keywords": [
+        "node.js",
+        "Flask",
+        "PHP",
+        "Spring Boot",
+        "MongoDB",
+        "MYSQL",
+        "PostgreSQL"
+      ]
+    },
+    {
+      "name": "DevOps",
+      "level": "",
+      "keywords": [
+        "Shell script",
+        "Terraform",
+        "Ansible",
+        "k8s"
+      ]
+    },
+    {
+      "name": "Mobile Dev",
+      "level": "",
+      "keywords": [
+        "Swift",
+        "Java",
+        "Flutter",
+        "React Native"
+      ]
+    },
+    {
+      "name": "Embedded",
+      "level": "",
+      "keywords": [
+        "Verilog",
+        "HDL",
+        "FPGA with Xilinx",
+        "Firmware Development via C/C++"
+      ]
+    },
+    {
+      "name": "Security",
+      "level": "",
+      "keywords": [
+        "Pwn (System)",
+        "Reverse Engineering",
+        "Webhacking (XSS, SQLi, ...)",
+        "Forensic (FTK Imager/EnCase)",
+        "..."
+      ]
+    },
+    {
+      "name": "Reverse Engineering",
+      "level": "",
+      "keywords": [
+        "IDA",
+        "x86ASM",
+        "armASM",
+        "lldb/gdb",
+        "Pin Tool"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Korean",
+      "fluency": "Native"
+    },
+    {
+      "language": "English",
+      "fluency": "Conversational"
+    },
+    {
+      "language": "Japanese",
+      "fluency": "Conversational"
+    }
+  ],
+  "interests": [],
+  "references": [],
+  "projects": [
+    {
+      "name": "Core Vault Finance Bounty",
+      "startDate": "2020",
+      "endDate": "",
+      "description": "",
+      "highlights": [
+        "Reported a math error inside the LGE ending function. This would result in the LGE not being able to end until it is fixed.",
+        "Reported a second math error inside the LGE ending function. This would result in the LGE not being able to end until it is fixed.",
+        "Reported possible attack on running average after LGE & adding liquidity at a too high/low of a price."
+      ],
+      "url": "https://medium.com/core-vault/cores-bug-bounty-reward-announcement-4b9af30827e7"
+    }
+  ]
+}
